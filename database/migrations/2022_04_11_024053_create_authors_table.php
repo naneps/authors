@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('github');
             $table->string('twitter');
             $table->string('location');
-            $table->string('latest_article_published');
+            $table->string('    ');
             $table->timestamps();
         });
     }
