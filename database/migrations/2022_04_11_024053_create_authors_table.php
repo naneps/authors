@@ -18,9 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('github');
-            $table->string('twitter');
             $table->string('location');
-            $table->string('    ');
             $table->timestamps();
         });
     }
